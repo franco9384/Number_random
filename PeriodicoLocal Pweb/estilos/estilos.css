@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(*http://fonts.googleapis.com/css27family=Lato&display=swap*);
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  color: #fff;
+  background: #036;
+  height: 50px;
+  position: fixed;
+  z-index: 90;
+  top: 10px;
+  left: 10px;
+}
+header .contenedor {
+  display: table;
+}
+header .contenedor h1 {
+  float: left;
+  margin: 5px 5px;
+  font-size: 25px;
+}
+#menu-bar {
+  display: none;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor label {
+  float: right;
+  margin: 10px 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+header .contenedor .menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  background: rgb(0, 51, 102);
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor .menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  height: 10px;
+  padding: 10px;
+  border-bottom: 0px solid rgb(0, 0, 255);
+}
+header .contenedor .menu a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+#menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
+main #banner {
+  margin-top: 20px;
+  position: relative;
+}
+main #banner img {
+  width: 100%;
+  height: 100%;
+}
+main #banner .contenedor {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: #FFF;
+  transform: translateX(-50%) translateY(-50%);
+}
+main #banner .contenedor h2 {
+  font-size: 25px;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0px 0px;
+  padding-left: 5px;
+}
+main #banner .contenedor p {
+  font-size: 20px;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 5px 5px;
+  padding-left: 10px;
+}
+main #banner .contenedor a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 17px;
+  font-style: italic;
+  border: 2px solid #0609B3;
+  width: 98px;
+  padding: 5px;
+  margin-top: 5px;
+}
+main #banner .contenedor a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+main .contenedor #noticia {
+  display: table;
+  font-size: 18px;
+  font-style: italic;
+  float: left;	
+  height: 50%;
+  width: 49%;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #333;
+}
+main .contenedor #noticia h3{
+font-size: 30px;
+font-style:normal;
+text-align: justify;	
+}
+main .contenedor #noticia2  {
+  display: table;
+  font-size: 18px;
+  font-style: italic;
+  float: right;	
+  height: 50%;
+  width: 49%;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #333;
+}
+main .contenedor #noticia2 h3{
+font-size: 30px;
+font-style:normal;
+text-align: justify;	
+}
+main #principal .contenedor {
+  height: auto;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: table;
+}
+main #principal .contenedor article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main #principal .contenedor article .nota {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: table;
+  
+}
+main #principal .contenedor article .nota p {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+	
+}
+main #principal .contenedor article .nota p img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #333;
+}
+main #principal .contenedor article .nota p a {
+  text-decoration: none;
+  font-style: italic;
+  color: #0609B3;
+  font-weight: normal;
+}
+main #principal .contenedor article .nota p a:hover {
+  text-decoration: underline;
+}
+main #principal .contenedor aside {
+  width: 100%;
+  border: 1px solid #333;
+  margin: auto;
+}
+main #principal .contenedor aside .formulario {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0px solid #333;
+  padding: 15px 0px;
+}
+main #principal .contenedor aside .formulario img {
+  width: 80%;
+  height: 80%;
+}
+main #principal .contenedor aside .formulario input {
+  margin: auto;
+  font-size: 20px;
+  width: 98%;
+  margin: 10px 0px;
+}
+main #principal .contenedor aside .formulario input[type="text"] {
+  background: url("../Imagenes/imagenfoto.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+main #principal .contenedor aside .formulario input[type="password"] {
+  background: url("../Imagenes/llave.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+main #principal .contenedor aside .formulario button {
+  margin: auto;
+  font-size: 20px;
+  width: 98%;
+  margin: 5px 0px;
+  cursor: pointer;
+  border: none;
+  background: #06F;
+  font-weight: bold;
+}
+main #principal.contenedor aside .formulario button:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+main #principal.contenedor aside .formulario a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  padding: 0px 10px;
+}
+main #principal.contenedor aside .formulario a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+main #principal.contenedor aside .enlaces {
+  width: 80%;
+  text-align: center;
+  padding: 15px 5px;
+  margin: auto;
+}
+main #principal.contenedor aside .enlaces a {
+  display: block;
+  width: 90%;
+  color: #FFF;
+  background: #006;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+main #principal.contenedor aside .enlaces a:hober {
+  text-decoration: underline;
+}
+main #tipos {
+  background: rgb(227, 37, 96, 0.9);
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+main #tipos p {
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+}
+main #tipos .contenedor {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main #tipos .contenedor h1 {
+  font-style: italic;
+  width: 100%;
+}
+main #tipos .contenedor .tipos {
+  margin: 20px;
+}
+main #tipos .contenedor .tipos a img {
+  width: 280px;
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid #FFF;
+}
+main #tipos .contenedor .tipos h3 {
+  width: 180%;
+}
+footer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+}
+footer .contenedor {
+  height: auto;
+  display: table;
+}
+footer .contenedor .sociales {
+  width: 98%;
+  float: left;
+}
+footer .contenedor .sociales a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #091AD1;
+  text-align: center;
+}
+footer .contenedor .sociales p {
+  font-size: 15px;
+  text-align: center;
+}
+@media (min-width:1024px) {
+  .contenedor {
+    width: 1000px;
+	  
+  }
+  main #banner {
+    height: 400px;
+    overflow: hidden;
+  }
+  main #banner img {
+    height: 180%;
+    margin-top: -150px;
+  }
+  main #principal .contenedor article {
+    width: 70%;
+    float: left;
+  }
+  main #principal .contenedor article .nota {
+    width: 50%;
+    margin: auto;
+  }
+  main #principal .contenedor aside {
+    width: 30%;
+    float: right;
+  }
+  main #principal .contenedor aside .formulario input {
+    font-size: 20px;
+  }
+ 
+  header .contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }
+  header .contenedor label {
+    display: none;
+  }
+  header .contenedor .menu a {
+    border-bottom: none
+  }
+  main #principal .contenedor article .nota {
+    width: 40%;
+    margin: 20px;
+  }
+  main #principal .contenedor article .nota p img {
+    width: 300px;
+    height: 250px;
+  }
+  footer .contenedor .sociales a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #091AD1;
+    text-align: center;
+  }
+  footer .contenedor .sociales p {
+    font-size: 20px;
+  }
+  @media (min-width:768px) and (max-width:1023px) {
+    main #banner {
+      height: 250px;
+      overflow: hidden;
+    }
+    main #banner img {
+      height: auto;
+      margin-top: -100px;
+    }
+    main #principal .contenedor article {
+      width: 70%;
+      float: left;
+    }
+    main #principal .contenedor aside {
+      width: 30%;
+      float: right;
+    }
+    main #principal .contenedor article .nota {
+      width: 40%;
+      margin: 15px;
+    }
+    main #principal .contenedor aside .formulario input {
+      font-size: 22px;
+    }
+    main #principal .contenedor aside .formulario a {
+      font-size: 20px;
+    }
+  }
+  @media (min-width:480px) and (max-width:767px) {
+    main #banner {
+      height: 200px;
+      overflow: hidden;
+    }
+    main #banner img {
+      height: auto;
+      margin-top: -50px;
+    }
+    main #banner .contenedor h2 {
+      font-size: 20px;
+    }
+    main #banner .contenedor p {
+      font-size: 17px;
+    }
+    main #banner .contenedor a {
+      font-size: 15px;
+      width: 90px;
+      padding: 2px;
+    }
+    main #principal .contenedor article {
+      width: 70%;
+      float: left;
+    }
+    main #principal .contenedor aside {
+      width: 30%;
+      float: right;
+    }
+    main #principal .contenedor article .nota {
+      width: 45%;
+      margin: 2px;
+    }
+    main #principal .contenedor article .nota p {
+      font-size: 15px;
+    }
+    main #principal .contenedor aside .formulario input {
+      font-size: 17px;
+    }
+    main #principal .contenedor aside .formulario button {
+      font-size: 20px;
+    }
+    main #principal .contenedor aside .formulario a {
+      font-size: 15px;
+    }
+  }
+}

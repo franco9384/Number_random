@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(*http://fonts.googleapis.com/css27family=Lato&display=swap*);
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  color: #fff;
+  background: #036;
+  height: 50px;
+  position: fixed;
+  z-index: 90;
+  top: 10px;
+  left: 10px;
+}
+header .contenedor {
+  display: table;
+}
+header .contenedor h1 {
+  float: left;
+  margin: 5px 5px;
+  font-size: 25px;
+}
+#menu-bar {
+  display: none;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor label {
+  float: right;
+  margin: 10px 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+header .contenedor .menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  background: rgb(0, 51, 102);
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor .menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  height: 10px;
+  padding: 10px;
+  border-bottom: 0px solid rgb(0, 0, 255);
+}
+header .contenedor .menu a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+#menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}.contenedor {
+  width: 98%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  color: #fff;
+  background: #036;
+  height: 50px;
+  position: fixed;
+  z-index: 90;
+  top: 10px;
+  left: 10px;
+}
+header .contenedor {
+  display: table;
+}
+header .contenedor h1 {
+  float: left;
+  margin: 5px 5px;
+  font-size: 25px;
+}
+#menu-bar {
+  display: none;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor label {
+  float: right;
+  margin: 10px 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+header .contenedor .menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  background: rgb(0, 51, 102);
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+header .contenedor .menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  height: 10px;
+  padding: 10px;
+  border-bottom: 0px solid rgb(0, 0, 255);
+}
+header .contenedor .menu a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+#menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }.contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }header .contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  }header .contenedor .menu {
+    position: static;
+    width: auto;
+    background: rgb(0, 51, 102);
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background: rgb(0, 51, 102);
+  } .menu {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  background: rgb(0, 51, 102);
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  height: 10px;
+  padding: 10px;
+  border-bottom: 0px solid rgb(0, 0, 255);
+}
+.menu a:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+#menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
+}
+.menu a{
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+	height: 35px;
+	padding: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu a:hover{
+	background: rgba(38, 40, 44, 0.5);
+}
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+main{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
+main section h2{
+	font-size: 18px;
+	border-bottom: 2px solid #009;
+	text-transform: uppercase;
+}
+section{
+	border: 1px solid #999;
+}
+#caja{
+	width: 80%;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#boton{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	background: #FFF;
+}
+#boton:hover{
+	cursor: pointer;
+	background: #999;
+}
+#boton_{
+	width: 80%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	background: #FFF;
+}
+#boton_:hover{
+	cursor: pointer;
+	background: #999;
+}
+main section a{
+	text-decoration: none;
+	font-size: 18px;
+	color:#006;
+	font-weight: bold;
+}
+main section a:hover{
+	text-decoration: underline;
+}
+#tabla{
+	width: 98%;
+	margin:auto;
+}
+#filatabla{
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+	font-weight: bold;
+}
+#fila{
+	font-size: 14px;
+}
+@media (min-width:1024px){
+	.contenedor{
+		width: 1000px;
+	}
+	header label{
+		display:none;
+	}
+	.menu{
+		posirtion:static;
+		left:0px;
+		width: 800px;
+		height: 50px;
+		background: #333;
+		transform: translateX(0%);
+		float: right;
+		flex-wrap: wrap;
+		margin-top: 0px;
+		border-left: 2px solid #FFF;
+	}
+	.menu a{
+		border:none;
+		height: 20px;
+		font-size: 20px;
+		padding: 0px 5px;
+	}
+	.menu a hover{
+		text-decoration: underline;
+	}
+}
